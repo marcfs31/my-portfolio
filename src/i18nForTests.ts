@@ -14,7 +14,7 @@ i18n.use(initReactI18next).init({
         contact: "Contact",
         email: "Email",
         linkedin: "LinkedIn",
-        toggle_dark_mode: "Toggle Dark Mode",
+        toggle_mode: "Toggle Dark Mode",
         dynatrace_title: "Software Engineer at Dynatrace",
         dynatrace_duration: "May 2022 - Present",
         dynatrace_description: "Currently, I am enhancing the functionality and performance of Dynatrace's third-generation web applications using React. My previous work involved developing second-generation applications using Angular and TypeScript. I focus on delivering high-quality software solutions by utilizing modern development practices and tools.",

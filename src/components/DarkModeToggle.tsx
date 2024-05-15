@@ -11,7 +11,7 @@ const DarkModeToggle: React.FC<DarkModeToggleProps> = ({ toggleDarkMode }) => {
 
   return (
     <Button variant="contained" color="primary" onClick={toggleDarkMode}>
-      {t('toggle_dark_mode')}
+      {t('toggle_mode')}
     </Button>
   );
 };

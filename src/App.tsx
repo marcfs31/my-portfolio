@@ -38,6 +38,7 @@ const App: React.FC = () => {
               onChange={handleLanguageChange}
               variant="outlined"
               size="small"
+              defaultValue='en'
             >
               <MenuItem value="en">English</MenuItem>
               <MenuItem value="es">Español</MenuItem>
