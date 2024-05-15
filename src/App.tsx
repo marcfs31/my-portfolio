@@ -1,15 +1,14 @@
-import { Container, CssBaseline, MenuItem, Select, SelectChangeEvent, ThemeProvider, createTheme } from '@mui/material';
+import { Brightness4, Brightness7 } from '@mui/icons-material';
+import { AppBar, Box, Container, CssBaseline, IconButton, MenuItem, Select, SelectChangeEvent, ThemeProvider, Toolbar, Typography, createTheme } from '@mui/material';
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
-import DarkModeToggle from './components/DarkModeToggle';
-import i18n from './i18n';
 
 const App: React.FC = () => {
   const [darkMode, setDarkMode] = useState(true); // Default to dark mode
-  const { t } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const theme = createTheme({
     palette: {
@@ -28,31 +27,39 @@ const App: React.FC = () => {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <div className="app">
-        <header style={{ textAlign: 'center', padding: '50px 0' }}>
-          <h1>{t('title')}</h1>
-          <p>{t('subtitle')}</p>
-          <Container sx={{ mt: 2, mb: 2 }}>
+      <AppBar position="static" color="primary">
+        <Toolbar>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            {t('title')}
+          </Typography>
+          <Box sx={{ minWidth: 120 }}>
             <Select
               value={i18n.language}
               onChange={handleLanguageChange}
               variant="outlined"
               size="small"
-              defaultValue='en'
+              sx={{ color: 'white', borderColor: 'white', borderWidth: 1 }}
             >
               <MenuItem value="en">English</MenuItem>
               <MenuItem value="es">Español</MenuItem>
               <MenuItem value="ca">Català</MenuItem>
               <MenuItem value="it">Italiano</MenuItem>
             </Select>
-          </Container>
-        </header>
-        <About />
-        <Contact />
-        <footer style={{ textAlign: 'center', padding: '20px 0', borderTop: '1px solid #dddddd' }}>
-          <DarkModeToggle toggleDarkMode={toggleDarkMode} />
-        </footer>
-      </div>
+          </Box>
+          <IconButton edge="end" color="inherit" onClick={toggleDarkMode}>
+            {darkMode ? <Brightness7 /> : <Brightness4 />}
+          </IconButton>
+        </Toolbar>
+      </AppBar>
+      <Container>
+        <Box sx={{ my: 4 }}>
+          <Typography variant="h4" component="h1" gutterBottom>
+            {t('subtitle')}
+          </Typography>
+          <About />
+          <Contact />
+        </Box>
+      </Container>
     </ThemeProvider>
   );
 };
