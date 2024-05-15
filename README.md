@@ -1,46 +1,62 @@
-# Getting Started with Create React App
+# Marc Fors - Professional Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my professional portfolio. This repository contains the source code for my personal portfolio website built with React, TypeScript, and Material-UI. The site includes information about my professional experiences, skills, and contact details, and it supports multiple languages (English, Spanish, Catalan, Italian) with dark mode functionality.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [About Me](#about-me)
+- [Job Experiences](#job-experiences)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### `npm start`
+## About Me
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I am a Software Engineer with experience in developing web applications using React and Angular. This portfolio showcases my work history and skills in software development.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Job Experiences
 
-### `npm test`
+### Dynatrace (May 2022 - Present)
+- Developing third-generation web applications using React.
+- Skills: React, TypeScript, JavaScript, Git, TestCafé, Selenium, Java, GWT, Jest, HTML5, Angular.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### CREALOGIX Group (May 2020 - May 2022)
+- Developed and maintained front-end applications for the corporate banking sector using Angular 10.
+- Skills: TypeScript, Angular, HTML, Git, HTML5.
 
-### `npm run build`
+### T-Systems Iberia (Sep 2019 - Apr 2020)
+- Junior Software Developer working on Java and Spring for building REST APIs and Angular front-end applications.
+- Skills: TypeScript, Java, Angular, HTML, Git, HTML5.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### T-Systems Iberia (Jun 2018 - Jun 2019)
+- Software Developer (Apprenticeship) focusing on Java 7-8, Struts, Spring, and relational databases.
+- Skills: TypeScript, Java, Angular, HTML, Git, HTML5.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### LIFE Informatica (Sep 2016 - Mar 2017)
+- Computer Repair Technician (Apprenticeship) assembling and repairing PCs and servers, and installing operating systems.
+- Skills: Windows, Linux, PC Assembly, Server Maintenance.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies Used
 
-### `npm run eject`
+- **Front-end:** React, TypeScript, Material-UI
+- **Testing:** Jest, React Testing Library
+- **Internationalization:** react-i18next
+- **Version Control:** Git
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Getting Started
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running, follow these steps:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Prerequisites
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Node.js and npm installed
+- Git installed
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Clone the repo:
+   ```bash
+   git clone git@github.com:marcfs31/my-portfolio.git
+   cd my-portfolio
