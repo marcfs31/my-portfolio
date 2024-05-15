@@ -1,0 +1,25 @@
+{
+    "title": "Marc Fors",
+    "subtitle": "Enginyer de Programari",
+    "about": "Sobre mi",
+    "contact": "Contacte",
+    "email": "Correu electrònic",
+    "linkedin": "LinkedIn",
+    "toggle_mode": "Canviar mode",
+    "dynatrace_title": "Enginyer de Programari a Dynatrace",
+    "dynatrace_duration": "Maig 2022 - Present",
+    "dynatrace_description": "Actualment, estic millorant la funcionalitat i el rendiment de les aplicacions web de tercera generació de Dynatrace utilitzant React. El meu treball anterior involucrava el desenvolupament d'aplicacions de segona generació utilitzant Angular i TypeScript. Em centro a oferir solucions de programari d'alta qualitat utilitzant pràctiques i eines de desenvolupament modernes.",
+    "crealogix_title": "Enginyer de Programari a CREALOGIX Group",
+    "crealogix_duration": "Maig 2020 - Maig 2022",
+    "crealogix_description": "A CREALOGIX Group, vaig desenvolupar i mantenir aplicacions de front-end per al sector bancari corporatiu utilitzant Angular 10. Vaig ser responsable d'aplicacions mòbils i d'escriptori, assegurant experiències d'usuari perfectes en totes les plataformes.",
+    "tsystems_junior_title": "Desenvolupador de Programari Junior a T-Systems Iberia",
+    "tsystems_junior_duration": "Set 2019 - Abr 2020",
+    "tsystems_junior_description": "Com a Desenvolupador de Programari Junior, vaig perfeccionar les meves habilitats en Java 7-8 i Spring per construir APIs REST consumides per aplicacions front-end d'Angular. Vaig adquirir competència en desenvolupament front-end amb Angular, TypeScript, JavaScript, CSS3 i HTML5.",
+    "tsystems_apprentice_title": "Desenvolupador de Programari a T-Systems Iberia (Aprenentatge)",
+    "tsystems_apprentice_duration": "Jun 2018 - Jun 2019",
+    "tsystems_apprentice_description": "Durant el meu aprenentatge, vaig desenvolupar competències bàsiques en desenvolupament professional de programari, incloent la programació en Java 7-8 amb els frameworks Struts i Spring. També vaig adquirir experiència en bases de dades relacionals com Oracle i SQL Server.",
+    "lifeinformatica_title": "Tècnic en Reparació d'Ordinadors a LIFE Informatica (Aprenentatge)",
+    "lifeinformatica_duration": "Set 2016 - Mar 2017",
+    "lifeinformatica_description": "En aquest rol, vaig adquirir experiència pràctica en assemblatge i reparació de PCs i servidors. També vaig adquirir habilitats en la instal·lació i configuració de sistemes operatius, incloent Windows i Linux."
+  }
+  

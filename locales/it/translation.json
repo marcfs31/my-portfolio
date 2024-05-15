@@ -1,0 +1,25 @@
+{
+    "title": "Marc Fors",
+    "subtitle": "Ingegnere del Software",
+    "about": "Chi sono",
+    "contact": "Contatto",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "toggle_mode": "Cambia modalità",
+    "dynatrace_title": "Ingegnere del Software presso Dynatrace",
+    "dynatrace_duration": "Maggio 2022 - Presente",
+    "dynatrace_description": "Attualmente, sto migliorando la funzionalità e le prestazioni delle applicazioni web di terza generazione di Dynatrace utilizzando React. Il mio lavoro precedente ha riguardato lo sviluppo di applicazioni di seconda generazione utilizzando Angular e TypeScript. Mi concentro sul fornire soluzioni software di alta qualità utilizzando pratiche e strumenti di sviluppo moderni.",
+    "crealogix_title": "Ingegnere del Software presso CREALOGIX Group",
+    "crealogix_duration": "Maggio 2020 - Maggio 2022",
+    "crealogix_description": "In CREALOGIX Group, ho sviluppato e mantenuto applicazioni front-end per il settore bancario aziendale utilizzando Angular 10. Ero responsabile delle applicazioni mobili e desktop, garantendo esperienze utente perfette su tutte le piattaforme.",
+    "tsystems_junior_title": "Sviluppatore Software Junior presso T-Systems Iberia",
+    "tsystems_junior_duration": "Set 2019 - Apr 2020",
+    "tsystems_junior_description": "Come Sviluppatore Software Junior, ho affinato le mie competenze in Java 7-8 e Spring per la costruzione di API REST consumate da applicazioni front-end Angular. Ho acquisito competenze nello sviluppo front-end con Angular, TypeScript, JavaScript, CSS3 e HTML5.",
+    "tsystems_apprentice_title": "Sviluppatore Software presso T-Systems Iberia (Apprendistato)",
+    "tsystems_apprentice_duration": "Giugno 2018 - Giugno 2019",
+    "tsystems_apprentice_description": "Durante il mio apprendistato, ho sviluppato competenze di base nello sviluppo professionale del software, inclusa la programmazione in Java 7-8 con i framework Struts e Spring. Ho anche acquisito competenze in database relazionali come Oracle e SQL Server.",
+    "lifeinformatica_title": "Tecnico di Riparazione Computer presso LIFE Informatica (Apprendistato)",
+    "lifeinformatica_duration": "Settembre 2016 - Marzo 2017",
+    "lifeinformatica_description": "In questo ruolo, ho acquisito esperienza pratica nell'assemblaggio e riparazione di PC e server. Ho anche acquisito competenze nell'installazione e configurazione di sistemi operativi, inclusi Windows e Linux."
+  }
+  
